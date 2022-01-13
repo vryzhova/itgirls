@@ -6,9 +6,10 @@ body {
 
 .header {
     display: grid;
-    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-columns: 20% 60% 20%;
     justify-content: center;
     align-items: center;
+    width: 100%;
     height: 10vh;
 }
 
@@ -21,7 +22,7 @@ body {
 .menu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column: 2/5;
+    grid-column: 2/3;
     justify-self: start;
     gap: 44px;
 }
@@ -32,9 +33,9 @@ body {
 }
 
 .login {
-    grid-column: 5/6;
+    grid-column: 3/4;
     display: flex;
-    justify-self: center;
+    justify-self: end;
 }
 
 .lang {
