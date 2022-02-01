@@ -1,0 +1,13 @@
+.jumbotron {
+    background-color: lightgray;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.items {
+    margin-top: 50px;
+}
+
+.card {
+    margin-left: 10px;
+}

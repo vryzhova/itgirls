@@ -1,0 +1,66 @@
+@import url('https://rsms.me/inter/inter.css');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+
+}
+
+.header__logo {
+    margin-left: 85px;
+
+}
+
+.header__cart {}
+
+button {
+    border: none;
+    background-color: #5222D0;
+    border-radius: 100px;
+    color: white;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50%;
+}
+
+.main__head {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+    width: 542px;
+    height: 216px;
+    left: 126px;
+    top: 206px;
+}
+
+.main__photo {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.header__button {
+    width: 115px;
+    height: 38px;
+}
+
+.main__button__buy {
+    width: 270px;
+    height: 84px;
+    font-weight: 400px;
+    font-size: 35px;
+    line-height: 35px;
+}
